@@ -1,0 +1,30 @@
+{
+  "name": "advanced-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurii-futur/advanced-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurii-futur/advanced-frontend/issues"
+  },
+  "homepage": "https://github.com/yurii-futur/advanced-frontend#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "@types/webpack": "^5.28.1",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
