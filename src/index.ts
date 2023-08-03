@@ -1,3 +1,5 @@
 import { testFn } from "./test";
 
-testFn(1)
+testFn(12)
+
+document.body.innerHTML = "<div>Hello world1</div>"
