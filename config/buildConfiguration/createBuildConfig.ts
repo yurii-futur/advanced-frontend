@@ -23,7 +23,8 @@ export const createBuildConfig = (
     resolve: buildResolvers(),
     devtool: "inline-source-map",
     devServer: {
-      port
+      port,
+      historyApiFallback: true,
     },
     output: {
       filename: "[name].[contenthash].js",
