@@ -12,6 +12,7 @@ export default (env: { port: number, mode: BuildMode }) => {
       build: path.resolve(__dirname, "build"),
       // Place where plugin get initial html template
       html: path.resolve(__dirname, "public", "index.html"),
+      src: path.resolve(__dirname, "src")
     },
     port: env.port || 3000,
   };
