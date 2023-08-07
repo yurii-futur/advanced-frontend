@@ -20,7 +20,7 @@ export const createBuildConfig = (
     module: {
       rules: buildLoaders(),
     },
-    resolve: buildResolvers(),
+    resolve: buildResolvers(options),
     devtool: "inline-source-map",
     devServer: {
       port,
